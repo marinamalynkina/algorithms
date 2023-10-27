@@ -1,0 +1,40 @@
+# Java class files
+*.class
+
+# Generated files
+/bin/
+/gen/
+/out/
+**/build/
+**/jniLibs/
+**/solibs/
+
+# Gradle files
+**/.gradle/
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# IntelliJ
+*.iml
+/.idea/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/caches
+.idea/modules.xml
+# Comment next line if keeping position of elements in Navigation Editor is relevant for you
+.idea/navEditor.xml
+
+workspace.xml
+
+# Local configuration file (sdk path, etc)
+/local.properties

@@ -1,5 +1,7 @@
 package leetcode.trees
 
+import leetcode.TreeNode
+
 /**
  * Example:
  * var ti = TreeNode(5)
@@ -11,10 +13,6 @@ package leetcode.trees
  * }
  */
 
-class TreeNode(var `val`: Int) {
-    var left: TreeNode? = null
-    var right: TreeNode? = null
-}
 class Medium_T366_FindLeavesOfBinaryTree {
 
     val leaves = mutableListOf<MutableList<Int>>()
